@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="index, follow">
     <meta name="description"
-        content="Curage de canalisations, vidange de fosse septique, installation de pompe de relevage, travaux de VRD et raccordement au réseau dans l’Essonne (91).">
+        content="Curage de canalisations, vidange de fosse septique, installation de pompe de relevage, travaux de VRD et raccordement au réseau dans l'Essonne (91).">
     <link rel="canonical" href="https://assainissement-91.com/" />
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Assainissement 91",
-            "description": "Curage de canalisations, vidange de fosse septique, installation de pompe de relevage, travaux de VRD et raccordement au réseau dans l’Essonne (91).",
+            "description": "Curage de canalisations, vidange de fosse septique, installation de pompe de relevage, travaux de VRD et raccordement au réseau dans l'Essonne (91).",
             "url": "https://assainissement-91.com/",
             "telephone": "+33169520023",
             "address": {
@@ -57,7 +57,7 @@
             "nettoyage canalisations",
             "debouchage fosse septique",
             "vider fosse septique",
-            "maçon vrd"                      
+            "maçon vrd"
             ],
             "areaServed": {
                 "@type": "AdministrativeArea",
@@ -112,30 +112,27 @@
         <div class="imgformdev">
             <img src="aquaserv.webp" alt="entreprise assainissement 91 Essonne">
         </div>
-        <form action="https://formsubmit.co/formulaire@webprime.fr" method="POST" onsubmit="return validateForm()">
+        <form id="contactForm" onsubmit="return submitToWebPrime(event)">
             <!-- Honeypot anti-spam -->
             <div class="hp-wrap">
                 <label for="website">Votre site web :</label>
-                <input type="text" id="website" name="website" autocomplete="off">
+                <input type="text" id="website" name="_gotcha" autocomplete="off">
             </div>
-            <input type="hidden" name="_captcha" value="false">
-            <input type="hidden" name="_next" value="https://assainissement-91.com/">
-            <input type="hidden" name="_cc" value="contact.aquaserv@gmail.com">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_blacklist" value="http, https, www., .com, .net, .org, <a, </a, <script, </script, <iframe, </iframe, <img, javascript:, onerror=, onclick=, onload=">
+            <input type="hidden" name="_captcha" value="true">
             <label for="name">Nom :</label>
             <input type="text" id="name" name="nom" required>
-            <input type="tel" id="tel" name="tel" pattern="^((\+33|0)[1679])[0-9]{8}$" maxlength="12" required>
+            <label for="tel">Telephone :</label>
+            <input type="tel" id="tel" name="tel" pattern="^((\+33|0)[1679])[0-9]{8}$" maxlength="12" required>
             <label for="email">Email :</label>
             <input type="email" id="email" name="email" required>
             <label for="services">Prestations :</label>
             <select id="services" name="services" required>
                 <option value="CURAGE">CURAGE</option>
-                <option value="DEGORGEMENT">DÉGORGEMENT</option>
+                <option value="DEGORGEMENT">DEGORGEMENT</option>
                 <option value="FOSSE SEPTIQUE">FOSSE SEPTIQUE</option>
                 <option value="POMPE DE RELEVAGE">POMPE DE RELEVAGE</option>
                 <option value="VRD">VRD</option>
-                <option value="RACCORDEMENT RÉSEAUX">RACCORDEMENT RÉSEAUX</option>
+                <option value="RACCORDEMENT RESEAUX">RACCORDEMENT RESEAUX</option>
                 <option value="AUTRE">AUTRE</option>
             </select>
             <label for="comments">Commentaires :</label>
@@ -153,7 +150,7 @@
                                 title="nettoyage canalisation">CURAGE CANALISATION</a></strong></p>
                     <h3>Préservez la longévité de vos canalisations grâce à un nettoyage en profondeur. Le curage permet
                         de prévenir les obstructions et les dysfonctionnements. Notre équipe expérimentée intervient
-                        rapidement pour entretenir votre système d’assainissement dans les meilleures conditions.</h3>
+                        rapidement pour entretenir votre système d'assainissement dans les meilleures conditions.</h3>
                     <a class="lennybou" href="tel:+33169520023" title="curage canalisation">CONTACTEZ - NOUS</a>
                 </div>
             </section>
@@ -164,7 +161,7 @@
                     <p><strong class="strong-color"><a href="vidange-fosse-septique-91-essonne.html"
                                 title="vidange fosse septique">FOSSES SEPTIQUES</a></strong></p>
                     <h3>Nous assurons la vidange de fosses septiques, le pompage de bacs à graisses et la gestion
-                        complète de vos eaux usées. Nos solutions sur mesure garantissent l’efficacité et la propreté de
+                        complète de vos eaux usées. Nos solutions sur mesure garantissent l'efficacité et la propreté de
                         vos installations, dans le respect des normes environnementales.</h3>
                     <a class="lennybou" href="tel:+33169520023" title="vidange fosse septique prix">CONTACTEZ - NOUS</a>
                 </div>
@@ -175,7 +172,7 @@
                         decoding="async">
                     <p><strong class="strong-color"><a href="pompe-de-relevage-91-essonne.html"
                                 title="pompe de relevage">POMPE DE RELEVAGE</a></strong></p>
-                    <h3>Optimisez l’évacuation de vos eaux usées grâce à nos pompes de relevage performantes. Que ce
+                    <h3>Optimisez l'évacuation de vos eaux usées grâce à nos pompes de relevage performantes. Que ce
                         soit pour une maison, un immeuble ou une activité industrielle, nous vous fournissons un
                         accompagnement sur mesure et du matériel de qualité.</h3>
                     <a class="lennybou" href="tel:+33169520023" title="pompe de relevage prix">CONTACTEZ - NOUS</a>
@@ -187,7 +184,7 @@
                     <p><strong class="strong-color"><a href="travaux-de-vrd-91-essonne.html"
                                 title="maçon vrd">VRD</a></strong></p>
                     <h3>Nos experts en travaux de VRD prennent en charge la viabilisation de vos terrains : tranchées,
-                        raccordements aux réseaux d’eau, d’électricité ou d’assainissement. Nous vous garantissons des
+                        raccordements aux réseaux d'eau, d'électricité ou d'assainissement. Nous vous garantissons des
                         chantiers maîtrisés et conformes aux réglementations en vigueur.</h3>
                     <a class="lennybou" href="tel:+33169520023" title="entreprise vrd">CONTACTEZ - NOUS</a>
                 </div>
@@ -198,8 +195,8 @@
                         decoding="async">
                     <p><strong class="strong-color"><a href="raccordement-reseau-public-91-essonne.html"
                                 title="raccordement à l'égout">RACCORDEMENT RÉSEAUX</a></strong></p>
-                    <h3>Raccordez votre habitation ou bâtiment au réseau public d’assainissement en toute sérénité. Nos
-                        services incluent l’ouverture de tranchées, la pose de conduites et le branchement au réseau
+                    <h3>Raccordez votre habitation ou bâtiment au réseau public d'assainissement en toute sérénité. Nos
+                        services incluent l'ouverture de tranchées, la pose de conduites et le branchement au réseau
                         collectif dans le strict respect des normes sanitaires.</h3>
                     <a class="lennybou" href="tel:+33169520023"
                         title="mon branchement au réseau d assainissement">CONTACTEZ - NOUS</a>
@@ -212,7 +209,7 @@
                     <p><a href="curage-canalisation-91-essonne.html" title="nettoyage des canalisations 91 Essonne">
                             <strong>Nettoyage des canalisations</strong></a> : Assurez le bon fonctionnement de vos
                         réseaux grâce à un curage efficace. Ce service préventif élimine les résidus accumulés et réduit
-                        les risques d'engorgement. Nos techniciens interviennent rapidement dans tout l’Essonne pour
+                        les risques d'engorgement. Nos techniciens interviennent rapidement dans tout l'Essonne pour
                         préserver vos installations.
                     </p>
                 </div>
@@ -229,10 +226,10 @@
                 <div class="pcservtext">
                     <p><a href="raccordement-reseau-public-91-essonne.html"
                             title="reseau assainissement maison 91 Essonne">
-                            <strong>Raccordement à l’égout</strong></a> : Du terrassement au branchement final, nous
+                            <strong>Raccordement à l'égout</strong></a> : Du terrassement au branchement final, nous
                         prenons en charge toutes les étapes de votre raccordement au réseau collectif. Avec
-                        <strong>Assainissement 91</strong>, bénéficiez d’un service conforme aux exigences locales pour
-                        l’évacuation sécurisée de vos eaux usées.
+                        <strong>Assainissement 91</strong>, bénéficiez d'un service conforme aux exigences locales pour
+                        l'évacuation sécurisée de vos eaux usées.
                     </p>
                 </div>
             </div>
@@ -258,7 +255,7 @@
                     title="pompe de relevement 91 Essonne" loading="lazy" decoding="async">
                 <div class="pcservtext">
                     <p><a href="pompe-de-relevage-91-essonne.html" title="pompe de relevage 91 Essonne">
-                            <strong>Pompe de relevage</strong></a> : Pour faciliter l’évacuation des eaux usées dans les
+                            <strong>Pompe de relevage</strong></a> : Pour faciliter l'évacuation des eaux usées dans les
                         zones en contrebas, nous installons des pompes robustes et adaptées à chaque configuration. Nos
                         interventions couvrent les besoins des particuliers comme des professionnels en Essonne.
                     </p>
@@ -272,7 +269,7 @@
                     <p><a href="travaux-de-vrd-91-essonne.html" title="voirie et réseaux divers 91 Essonne">
                             <strong>VRD – Voirie et Réseaux Divers</strong></a> : Confiez vos travaux de viabilisation à
                         notre équipe spécialisée. <strong>Assainissement 91</strong> assure la mise en place de réseaux
-                        d’eau potable, eaux usées et électricité avec précision, dans le respect des normes techniques
+                        d'eau potable, eaux usées et électricité avec précision, dans le respect des normes techniques
                         et réglementaires.
                     </p>
                 </div>
@@ -286,10 +283,10 @@
             <hr>
             <p>
                 Notre expertise en assainissement repose sur une équipe expérimentée et des équipements performants. Que
-                ce soit pour le curage de canalisations, la vidange de fosses septiques, l’entretien de pompes de
+                ce soit pour le curage de canalisations, la vidange de fosses septiques, l'entretien de pompes de
                 relevage ou la réalisation de travaux de raccordement et de VRD, nous proposons des solutions durables
                 et adaptées à chaque situation. Grâce à une parfaite maîtrise technique et à un matériel moderne, nous
-                intervenons efficacement sur tous types d’installations, en conformité avec les normes en vigueur.
+                intervenons efficacement sur tous types d'installations, en conformité avec les normes en vigueur.
             </p>
         </div>
 
@@ -298,9 +295,9 @@
                 <h2>DES TARIFS</h2>
                 <h3>JUSTES ET TRANSPARENTS</h3>
                 <p>
-                    Nous offrons des prestations d’assainissement de qualité à des prix étudiés. Notre priorité : vous
+                    Nous offrons des prestations d'assainissement de qualité à des prix étudiés. Notre priorité : vous
                     garantir des interventions fiables, rapides et adaptées à votre budget. Demandez dès maintenant
-                    votre devis gratuit pour profiter d’un service professionnel à coût maîtrisé.
+                    votre devis gratuit pour profiter d'un service professionnel à coût maîtrisé.
                 </p>
                 <a class="lennybou2" href="prix-assainissement-91-essonne.html" title="prix assainissement">DEVIS
                     GRATUIT</a>
@@ -308,13 +305,13 @@
         </section>
 
         <div class="lennytext">
-            <h2>POURQUOI CHOISIR ASSAINISSEMENT 91 DANS L’ESSONNE ?</h2>
+            <h2>POURQUOI CHOISIR ASSAINISSEMENT 91 DANS L'ESSONNE ?</h2>
             <hr>
             <p>
-                Faire appel à <strong>Assainissement 91</strong>, c’est faire le choix d’un partenaire fiable,
-                expérimenté et engagé. Grâce à notre sérieux et à notre disponibilité, nous sommes aujourd’hui une
-                référence dans l’Essonne. Qu’il s’agisse d’un diagnostic, d’une intervention d’urgence ou d’un contrat
-                d’entretien, chaque prestation est exécutée avec précision et professionnalisme.
+                Faire appel à <strong>Assainissement 91</strong>, c'est faire le choix d'un partenaire fiable,
+                expérimenté et engagé. Grâce à notre sérieux et à notre disponibilité, nous sommes aujourd'hui une
+                référence dans l'Essonne. Qu'il s'agisse d'un diagnostic, d'une intervention d'urgence ou d'un contrat
+                d'entretien, chaque prestation est exécutée avec précision et professionnalisme.
             </p>
         </div>
 
@@ -327,18 +324,18 @@
             <p>
                 Nous vous proposons des contrats personnalisés, adaptés à vos besoins ponctuels ou réguliers. Avec
                 <strong>Assainissement 91</strong>, tout est clair : prestations, délais, tarifs. Que ce soit pour un
-                curage, une vidange, l’entretien d’une pompe ou des travaux de VRD, nous vous accompagnons avec rigueur
+                curage, une vidange, l'entretien d'une pompe ou des travaux de VRD, nous vous accompagnons avec rigueur
                 et efficacité pour un assainissement sans mauvaise surprise.
             </p>
         </div>
 
         <section>
             <div class="lennytext2">
-                <h2>ZONE D’INTERVENTION DANS L’ESSONNE</h2>
+                <h2>ZONE D'INTERVENTION DANS L'ESSONNE</h2>
                 <img src="assainissement-91.webp" alt="vidange fosse septique 91 Essonne" loading="lazy" decoding="async">
                 <p>
-                    <strong>Aquaserv Assainissement 91</strong> intervient dans l’ensemble du département de l’Essonne,
-                    aussi bien en urgence qu’avec rendez-vous programmé. Appelez-nous au <a href="tel:+33169520023"
+                    <strong>Aquaserv Assainissement 91</strong> intervient dans l'ensemble du département de l'Essonne,
+                    aussi bien en urgence qu'avec rendez-vous programmé. Appelez-nous au <a href="tel:+33169520023"
                         title="societe-assainissement">01 69 52 00 23</a> ou remplissez notre formulaire en ligne pour
                     obtenir un devis gratuit.
                 </p>
@@ -374,22 +371,22 @@
         </section>
 
         <div class="lennytext">
-            <h2>UN PARTENAIRE DE CONFIANCE POUR TOUS VOS TRAVAUX D’ASSAINISSEMENT</h2>
+            <h2>UN PARTENAIRE DE CONFIANCE POUR TOUS VOS TRAVAUX D'ASSAINISSEMENT</h2>
             <hr>
             <p>
                 Expert en assainissement dans le 91, <strong>Aquaserv Assainissement</strong> intervient rapidement en
-                cas d’urgence, que vous soyez un particulier, une entreprise ou une collectivité. Nos contrats clairs et
+                cas d'urgence, que vous soyez un particulier, une entreprise ou une collectivité. Nos contrats clairs et
                 précis vous offrent une solution sans surprise.
             </p>
             <p>
-                En cas d’accès à l’égout, nous assurons le raccordement au réseau public. Si ce n’est pas possible, nous
-                installons une solution autonome adaptée (tranchées d’infiltration, filtres à sable, etc.) pour un
+                En cas d'accès à l'égout, nous assurons le raccordement au réseau public. Si ce n'est pas possible, nous
+                installons une solution autonome adaptée (tranchées d'infiltration, filtres à sable, etc.) pour un
                 traitement efficace des eaux grises et noires.
             </p>
             <p>
                 <strong>Nos équipes sont disponibles 7j/7, 24h/24, y compris les week-ends et jours fériés.</strong>
                 Nous intervenons également pour la rénovation de canalisations, le remplacement de tuyaux, la
-                maintenance de collecteurs, la vidange de stations d’épuration et bien plus encore.
+                maintenance de collecteurs, la vidange de stations d'épuration et bien plus encore.
             </p>
         </div>
 
@@ -475,7 +472,7 @@
             });
         });
     </script>
-     
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const options = {
@@ -499,35 +496,41 @@
             });
         });
     </script>
-     <script>
-        function validateForm() {
-            var name = document.getElementById("name").value.trim();
-            var tel = document.getElementById("tel").value.trim();
-            var email = document.getElementById("email").value.trim();
-            var services = document.getElementById("services").value.trim();
-            var comments = document.getElementById("comments").value.trim();
-            if (name === "" || tel === "" || email === "" || services === "" || comments === "" || comments === "") {
-                alert("Champs obligatoires.");
-                return false;
+    <script>
+    async function submitToWebPrime(e) {
+        e.preventDefault();
+        const form = document.getElementById('contactForm');
+        const btn = form.querySelector('button[type="submit"]');
+        const originalText = btn.textContent;
+
+        // Anti-spam honeypot check
+        if (form._gotcha && form._gotcha.value) return false;
+
+        btn.textContent = 'Envoi en cours...';
+        btn.disabled = true;
+
+        try {
+            const formData = new FormData(form);
+            const response = await fetch('https://webprime.app/webhook/contact/857f6a6d191ea9ed8f4d7159245a653f3043557bd87b70e04ebc34dea33a261a', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (response.ok) {
+                // Redirection apres succes
+                window.location.href = 'https://assainissement-91.com/';
+            } else {
+                alert('Erreur lors de l\'envoi. Veuillez reessayer.');
+                btn.textContent = originalText;
+                btn.disabled = false;
             }
-            var telPattern = /^((0[1679])|(\+33[1679]))\d{8}$/;
-            if (!telPattern.test(tel)) {
-                alert("Veuillez entrer un numéro de téléphone valide.");
-                return false;
-            }
-            var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-            if (!emailPattern.test(email)) {
-                alert("Veuillez entrer une adresse email valide.");
-                return false;
-            }
-            var linkPattern = /https?:\/\/[^\s]+|<a\s+href\s*=\s*['"][^\s>]+['"]/i;
-            var scriptPattern = /<script[^>]*>[\s\S]*?<\/script>/gi;
-            if (linkPattern.test(comments) || scriptPattern.test(comments)) {
-                alert("Pas autorisé.");
-                return false;
-            }
-            return true;
+        } catch (error) {
+            alert('Erreur de connexion. Veuillez reessayer.');
+            btn.textContent = originalText;
+            btn.disabled = false;
         }
+        return false;
+    }
     </script>
 </body>
 
