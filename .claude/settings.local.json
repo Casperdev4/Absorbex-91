@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nMigrate forms to WebPrime webhook system\n\n- Replace formsubmit.co with WebPrime webhook\n- Add submitToWebPrime async function for form handling\n- Update honeypot field name to _gotcha\n- Add telephone label to all forms\n- Remove accents from select options to avoid encoding issues\n- Clean up unused hidden fields\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push)",
+      "Bash(git pull:*)",
+      "Bash(git rebase:*)",
+      "Bash(git push:*)",
+      "Bash(grep:*)",
+      "Bash(powershell -File:*)",
+      "Bash(xxd:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix: Remove UTF-8 BOM from HTML files\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd FAQ sections to all main pages\n\n- Add accordion-style FAQ CSS with responsive design\n- Add FAQ section to index.html \\(general questions\\)\n- Add FAQ section to prix-assainissement \\(pricing questions\\)\n- Add FAQ section to assainissement-91 \\(company questions\\)\n- Add FAQ sections to all service pages \\(curage, vidange, pompe, VRD, raccordement\\)\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)"
+    ]
+  }
+}
